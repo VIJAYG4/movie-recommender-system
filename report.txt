@@ -1,0 +1,3 @@
+Places where I got stuck:
+1. line 55 - movie_recommendations_indexes was list of lists when its supposed to be just list. Wasted lot of time not able to correctly iterate through the list.
+2. line 21 - df['title'] returned other unnecessary info. had to write df['title].values[0] to just return the title. 
